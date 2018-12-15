@@ -1,0 +1,62 @@
+.row {
+  width: 100%;
+}
+
+.tile {
+  box-sizing: border-box;
+  float: left;
+  padding: 10px;
+}
+
+.tile-inner {
+  position: relative;
+  background-color: silver;
+  border: solid 1px;
+  padding-top: 25px;
+  height: 150px;
+}
+
+#title1 {
+  background-color: red;
+}
+
+#title2 {
+  background-color: green;
+}
+
+#title3 {
+  background-color: yellow;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  margin: 0px;
+  border: solid 1px;
+}
+
+@media (min-width: 992px) {
+  .col-lg-4 {
+    width: 33.33%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .col-sm-12 {
+    width: 100%;
+  }
+}

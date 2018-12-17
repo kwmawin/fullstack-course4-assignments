@@ -1,0 +1,10 @@
+.menu-item {
+	height: 1000px;
+	background-color: silver;
+	margin-top: 50px;
+}
+
+.navbar-brand {
+	margin-top: auto;
+	margin-bottom: auto;
+}
